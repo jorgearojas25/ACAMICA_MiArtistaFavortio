@@ -10,9 +10,18 @@
   </head>
   <body>
     <center>
+        <nav class="menu" id="menu">
+            <ul>
+              <li class="menuItem"> <a href="#integrantes">Integrantes</a></li>
+              <li class="menuItem"> <a href="#discografia">Discografia</a></li>
+              <li class="menuItem"> <a href="#top5">Top 5</a></li>
+              <li class="menuItem"> <a href="#reproductor">Recomendación</a></li>
+            </ul>
+          </nav>
+          <a class="homeButton" href="muse">Volver al inicio</a>
       <div class="container">
         <header>
-          <div class="muse">
+          <div class="muse" id="integrantes">
               <h1>MUSE</h1>
           </div>
           <div class="integrantes">
@@ -34,20 +43,46 @@
               Wolstenholme (bajo eléctrico, teclados, coros).
             </p>
           </article>
-          <div>
+          <div class="discografia" id="discografia">
             <h2>Discografia</h2>
-            <ul>
-              <li>1999: Showbiz</li>
-              <li>2001: Origin of Symmetry</li>
-              <li>2003: Absolution</li>
-              <li>2006: Black Holes and Revelations</li>
-              <li>2009: The Resistance</li>
-              <li>2012: The 2nd Law</li>
-              <li>2015: Drones</li>
-              <li>2018: Simulation Theory</li>
-            </ul>
+            <table>
+              <tbody>
+              <tr>
+              <td>1999:</td>
+              <td>Showbiz</td>
+              </tr>
+              <tr>
+              <td>2001:</td>
+              <td>Origin of Symmetry</td>
+              </tr>
+              <tr>
+              <td>2003:</td>
+              <td>Absolution</td>
+              </tr>
+              <tr>
+              <td>2006:</td>
+              <td>Black Holes and Revelations</td>
+              </tr>
+              <tr>
+              <td>2009:</td>
+              <td>The Resistance</td>
+              </tr>
+              <tr>
+              <td>2012:</td>
+              <td>The 2nd Law</td>
+              </tr>
+              <tr>
+              <td>2015:</td>
+              <td>Drones</td>
+              </tr>
+              <tr>
+              <td>2018:</td>
+              <td>Simulation Theory</td>
+              </tr>
+              </tbody>
+              </table>
           </div>
-          <div class="top5">
+          <div class="top5" id="top5">
             <h2>Top 5 Canciones Spotify</h2>
             <ul>
               <li>Uprising</li>
@@ -58,10 +93,10 @@
             </ul>
           </div>
         </section>
-        <div>
+        <div class="paginaOficial">
           <a href="https://www.muse.mu/">Visita su pagina oficial</a>
         </div>
-        <div>
+        <div class="galeria">
           <img
             src="https://publimetro.pe/resizer/QuERdn7c3hTW617OAxIdP01jjeI=/940x569/smart/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/TDHPKDH4S5BJHIPTEVAMEP4ZZ4.jpg"
             alt="MUSE concierto"
@@ -73,7 +108,7 @@
             width="20%"
           />
         </div>
-        <div class="reproductor">
+        <div class="reproductor" id="reproductor">
             <iframe src="https://open.spotify.com/embed/track/40pPI2TbaYSZlKfV44HRjn" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </div>
       </div>

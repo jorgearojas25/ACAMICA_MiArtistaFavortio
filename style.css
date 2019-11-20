@@ -8,6 +8,14 @@
     font-family: 'Roboto', sans-serif;;
 }
 
+.container{
+    margin: 0 5% 0 5%;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
 body{
     background: rgba(11,62,82,1);
     background: -moz-linear-gradient(top, rgba(11,62,82,1) 0%, rgba(0,0,0,1) 100%);
@@ -19,9 +27,24 @@ body{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0b3e52', endColorstr='#000000', GradientType=0 );
 }
 
+.menu{
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    background-color: #041921;
+}
+
+.menuItem{
+    display: inline;
+    padding: 0 2% 0 2%;
+}
+
+li{
+    list-style-type: none;
+}
 
 .muse{
-    margin: 10px 0 0 0;
+    margin: 80px 0 0 0;
     display: inline-block;
     font-size: 2rem;
     line-height: 1.7em;
@@ -45,7 +68,6 @@ body{
 .integrantes li
 {
     font-size: 1.5rem;
-   list-style-type: none;
    display: inline;
    padding-right: 5px;
 }
@@ -55,6 +77,46 @@ article{
     text-align: justify;
 }
 
-article h2{
-    
+.discografia{
+    padding: 10px 0 10px 0;
 }
+.discografia table td{
+    padding-left: 20px;
+}
+
+.top5 li{
+    padding: 5px 0 5px 0;
+
+}
+
+p{
+    padding: 7px 0 7px 0;
+}
+
+.paginaOficial a{
+    display: inline-block;
+    padding: 10px;
+    background-color: #0B3B4D;
+}
+
+a:hover{
+    color: cornflowerblue;
+    text-decoration: currentColor;
+    background-color: #06212C;
+}
+
+.galeria img{
+    display: inline-block;
+    width: 49%;
+    height: 49%;
+}
+
+.homeButton{
+    padding: 12px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color: #010608;
+}
+
+
